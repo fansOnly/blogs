@@ -18,7 +18,10 @@ export default defineConfig({
       dangerLabel: '危险',
       infoLabel: '信息',
       detailsLabel: '详细信息'
-    }
+    },
+    image: {
+      lazyLoading: true,
+    },
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -38,6 +41,7 @@ export default defineConfig({
           { text: '简介', link: '/javascript/intro' },
           { text: '闭包', link: '/javascript/closures' },
           { text: '继承与原型链', link: '/javascript/inheritance-and-the-prototype-chain' },
+          { text: '事件', link: '/javascript/event' },
         ]
       },
     ],
