@@ -39,6 +39,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '简介', link: '/javascript/intro' },
+          { text: '数据类型', link: '/javascript/data-types' },
           { text: '闭包', link: '/javascript/closures' },
           { text: '继承与原型链', link: '/javascript/inheritance-and-the-prototype-chain' },
           { text: '事件', link: '/javascript/event' },
