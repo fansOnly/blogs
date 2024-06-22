@@ -5,7 +5,9 @@ export default defineConfig({
   base: '/blogs/',
   title: "Just Coding",
   description: "A VitePress Site",
-  head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/images/favicon.ico' }]
+  ],
   // lang: 'zh-CN',
   cleanUrls: true,
   lastUpdated: true,
@@ -40,8 +42,8 @@ export default defineConfig({
       },
     ],
     footer: {
-      message: 'Released under the <a href="https://github.com/fansOnly/blogs/main/LICENSE">MIT License</a>.',
-      copyright: 'Copyright © 2019-present <a href="https://github.com/fansOnly">FansOnly</a>'
+      message: 'Released under the <a href="https://github.com/fansOnly/blogs/blob/main/LICENSE">MIT License</a>.',
+      copyright: 'Copyright © 2024-present <a href="https://github.com/fansOnly">FansOnly</a>'
     },
     docFooter: {
       prev: '上一页',

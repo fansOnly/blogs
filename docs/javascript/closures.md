@@ -21,7 +21,7 @@
 1. 不合理的闭包可能会造成内存泄漏
 :::
 
-### 代码示例①
+#### 代码示例①
 
 ```js
 /**
@@ -44,7 +44,7 @@ for (var i = 0; i < 5; i++) {
 <<< @/snippets/javascript/closures-demo-1.js
 :::
 
-### 代码示例②
+#### 代码示例②
 
 ```js
 /**
@@ -79,7 +79,7 @@ c.fun(3)
 <<< @/snippets/javascript/closures-demo-2.js
 :::
 
-### 代码示例③
+#### 代码示例③
 ```js
 var x = 2
 var y = {

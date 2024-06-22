@@ -1,11 +1,11 @@
 # Just Coding Theory
 
-- never stop learning.
-- learn by your hand instead of your eye.
-- learn from others and make it yours.
-- your code should be better.
-- fix bug is endless.
-- do not be hesitate when a thought come in, just try it.
-- write down you thoughts anywhere, anytime.
-- make sure if you are not sure.
-- be happy, focus and confidence when coding.
+- Never stop learning.
+- Learn by your hand instead of your eye.
+- Learn from others and make it yours.
+- Your code should be better.
+- Fix bug is endless.
+- Do not be hesitate when a thought come in, just try it.
+- Write down you thoughts anywhere, anytime.
+- Make sure if you are not sure.
+- Be happy, focus and confidence when coding.

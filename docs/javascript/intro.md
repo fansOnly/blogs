@@ -5,9 +5,11 @@ outline: deep
 # Javascript
 
 
-JavaScript（JS）是一种具有[函数优先:arrow_upper_right:](https://developer.mozilla.org/zh-CN/docs/Glossary/First-class_Function)特性的轻量级、解释型或者说即时编译型的编程语言。它是一种[基于原型:arrow_upper_right:](https://developer.mozilla.org/zh-CN/docs/Glossary/Prototype-based_programming)、多范式、[单线程:arrow_upper_right:](https://developer.mozilla.org/zh-CN/docs/Glossary/Thread)的[动态:arrow_upper_right:](https://developer.mozilla.org/zh-CN/docs/Glossary/Dynamic_typing)语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。
+JavaScript（JS）是一种具有[函数优先](https://developer.mozilla.org/zh-CN/docs/Glossary/First-class_Function)特性的轻量级、解释型或者说即时编译型的编程语言。它是一种[基于原型](https://developer.mozilla.org/zh-CN/docs/Glossary/Prototype-based_programming)、多范式、[单线程](https://developer.mozilla.org/zh-CN/docs/Glossary/Thread)的[动态](https://developer.mozilla.org/zh-CN/docs/Glossary/Dynamic_typing)语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。
 
-[ECMAScript 语言规范（ECMAScript Language Specification）:arrow_upper_right:](https://tc39.es/ecma262/)（ECMA-262）和[ECMAScript 国际化 API 规范（ECMAScript Internationalization API specification）:arrow_upper_right:](https://tc39.es/ecma402/)（ECMA-402）是 Javascript 的标准。
+[ECMAScript 语言规范（ECMAScript Language Specification）](https://tc39.es/ecma262/)（ECMA-262）和[ECMAScript 国际化 API 规范（ECMAScript Internationalization API specification）](https://tc39.es/ecma402/)（ECMA-402）是 Javascript 的标准。
+
+----
 
 # 部分知识点
 
