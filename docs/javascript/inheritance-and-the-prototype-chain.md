@@ -4,9 +4,17 @@
 访问一个对象的属性时，它不仅仅在该对象上搜寻，还会沿着对象的原型，原型的原型一直往上搜寻，直至匹配到这个属性或者是到达原型链的末尾。
 :::
 
+<br />
+
+----
+
+<br />
+
 # 继承的实现方式
 
-### 1.原型链继承
+<br />
+
+#### 1.原型链继承
 
 ::: tip 解析
 1. 子类继承父类的原型方法
@@ -18,7 +26,7 @@
 <<< @/snippets/javascript/inheritance-demo-1.js
 :::
 
-### 2. 盗用构造函数集成
+#### 2. 盗用构造函数集成
 
 ::: tip 解析
 1. 子类不继承父类的原型方法
@@ -30,7 +38,7 @@
 <<< @/snippets/javascript/inheritance-demo-2.js
 :::
 
-### 3. 组合继承
+#### 3. 组合继承
 
 ::: tip 解析
 1. 子类继承父类的原型方法
@@ -43,7 +51,7 @@
 <<< @/snippets/javascript/inheritance-demo-3.js
 :::
 
-### 4. 原型式继承
+#### 4. 原型式继承
 
 ::: tip 解析
 1. 创建一个空的构造函数
@@ -56,7 +64,7 @@
 <<< @/snippets/javascript/inheritance-demo-4.js
 :::
 
-### 5. 寄生式继承
+#### 5. 寄生式继承
 
 ::: tip 解析
 1. 使用原型继承复制目标对象
@@ -68,7 +76,7 @@
 <<< @/snippets/javascript/inheritance-demo-5.js
 :::
 
-### 6. 寄生组合继承
+#### 6. 寄生组合继承
 
 ::: tip 解析
 1. 子类通过构造函数继承父类
@@ -80,7 +88,7 @@
 <<< @/snippets/javascript/inheritance-demo-6.js
 :::
 
-### 7. class 继承
+#### 7. class 继承
 
 ::: tip 解析
 1. 先将父类实例对象的属性和方法添加到 this 上(调用 super() 方法)
@@ -89,4 +97,42 @@
 
 ::: details 代码实现
 <<< @/snippets/javascript/inheritance-demo-7.js
+:::
+
+<br />
+
+###### 思考①
+
++ 下述代码分别打印什么内容
+```js
+function Foo() {
+  getName = function () {
+    return 1
+  }
+  return this
+}
+Foo.getName = function () {
+  return 2
+}
+Foo.prototype.getName = function () {
+  return 3
+}
+var getName = function () {
+  return 4
+}
+function getName() {
+  return 5
+}
+
+console.log(Foo.getName())
+console.log(getName())
+console.log(Foo().getName())
+console.log(getName())
+console.log(new Foo.getName())
+console.log(new Foo().getName())
+console.log(new new Foo().getName())
+```
+
+::: details
+<<< @/snippets/javascript/prototype-chain-demo-1.js
 :::
