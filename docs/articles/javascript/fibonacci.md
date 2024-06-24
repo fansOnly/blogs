@@ -2,7 +2,7 @@
 
 ---
 
-### 斐波那契数列是什么{#description}
+### 斐波那契数列是什么{#definition}
 
 斐波那契数列（Fibonacci sequence），又称黄金分割数列、因数学家列昂纳多·斐波那契（Leonardoda Fibonacci）以兔子繁殖为例子而引入，故又称为“兔子数列”，指的是这样一个数列：1、1、2、3、5、8、13、21、34...
 
@@ -10,9 +10,11 @@
 
 F(0)=0，F(1)=1, F(n)=F(n-1)+F(n-2)（n>=2，n∈N*）
 
+<br />
+
 ---
 
-### 斐波那契的实现方式{#function}
+### 斐波那契的实现方式{#methods}
 
 <br />
 
@@ -64,9 +66,9 @@ console.log(fibonacci(5)) // output ?
 4. 性能对比
 
 ::: info 计算 n = 5 时的结果
-![alt text](../images/javascript/fibonacci-1.png)
+![alt text](../../images/javascript/fibonacci-1.png)
 :::
 
 ::: info 计算 n = 10 时的结果
-![alt text](../images/javascript/fibonacci-2.png)
+![alt text](../../images/javascript/fibonacci-2.png)
 :::

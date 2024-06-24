@@ -12,11 +12,19 @@
 - 字符串（String），字符串是一串表示文本值的字符序列，例如："Howdy"。
 - 代表（Symbol，在 ECMAScript 6 中新添加的类型）。一种实例是唯一且不可改变的数据类型。
 
+<br />
+
+---
+
 ### 引用数据类型{#object}
 
 + Object
 
     引用类型包含很多子类型，例如 Function、Array、Date、RegExp 等。
+
+<br />
+
+---
 
 ### 包装对象{#packing-object}
 
@@ -44,6 +52,10 @@ console.log(len)
 ```
 :::
 
+<br />
+
+---
+
 ### 类型转换{#type-coercion}
 
 - 强制类型转换
@@ -70,6 +82,10 @@ b = b - 1
 console.log(b) // output ?
 console.log(typeof b) // output ?
 ```
+
+<br />
+
+---
 
 <br />
 

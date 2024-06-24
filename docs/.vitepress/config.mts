@@ -6,7 +6,7 @@ export default defineConfig({
   title: "Just Coding",
   description: "A VitePress Site",
   head: [
-    ['link', { rel: 'icon', href: '/images/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   // lang: 'zh-CN',
   cleanUrls: true,
@@ -27,6 +27,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     search: {
       provider: 'local'
+    },
+    outline: {
+      level: 3,
+      label: '页面导航',
     },
     // logo: '',
     nav: [
