@@ -31,7 +31,8 @@ export default defineConfig({
     // logo: '',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Blogs', link: '/javascript/intro' }
+      { text: '博客系列', link: '/javascript/intro' },
+      { text: '面试题库', link: '/interview/javascript' },
     ],
     sidebar: [
       {
@@ -47,6 +48,13 @@ export default defineConfig({
           { text: '函数式编程', link: '/javascript/functional-programming' },
           { text: '斐波那契专题', link: '/javascript/fibonacci' },
           { text: '题目汇总', link: '/javascript/questions' },
+        ]
+      },
+      {
+        text: '面试题库',
+        collapsed: true,
+        items: [
+          { text: 'javascript 系列', link: '/interview/javascript' },
         ]
       },
     ],
