@@ -44,6 +44,7 @@ export default defineConfig({
           { text: '闭包', link: '/javascript/closures' },
           { text: '继承与原型链', link: '/javascript/inheritance-and-the-prototype-chain' },
           { text: '事件', link: '/javascript/event' },
+          { text: '题目汇总', link: '/javascript/questions' },
         ]
       },
     ],
