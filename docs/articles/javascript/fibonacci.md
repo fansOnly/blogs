@@ -66,9 +66,9 @@ console.log(fibonacci(5)) // output ?
 4. 性能对比
 
 ::: info 计算 n = 5 时的结果
-![alt text](../../images/javascript/fibonacci-1.png)
+![alt text](/images/javascript/fibonacci-1.png)
 :::
 
 ::: info 计算 n = 10 时的结果
-![alt text](../../images/javascript/fibonacci-2.png)
+![alt text](/images/javascript/fibonacci-2.png)
 :::
