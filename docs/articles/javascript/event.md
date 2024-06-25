@@ -47,7 +47,7 @@ outline: [3, 4]
 + 回归主线程
 
 ::: details 流程图
-![Event Loop](../../images/event-loop.png)
+![Event Loop](docs/images/event-loop.png)
 :::
 
 <br />
