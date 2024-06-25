@@ -1,3 +1,7 @@
+---
+outline: [3, 4]
+---
+
 # 函数式编程{#title}
 
 ---
@@ -32,116 +36,159 @@
 
 ### 函数式编程的应用场景{#scene}
 
-1. 纯函数
+<br />
 
-   - 同样的输入得到同样的输出，无副作用
+#### 1. 纯函数{#pure-function}
 
-    ::: details 查看示例
-    ```js
-    function add(a, b) {
-      return a + b
-    }
+      同样的输入得到同样的输出，无副作用
 
-    console.log(add(1,2)) // output ?
-    ```
-    :::
+::: details 查看示例
 
-2. 函数组合
+```js
+function add(a, b) {
+  return a + b;
+}
 
-   - 将多个依次调用的函数组合成一个大的函数，简化调用
+console.log(add(1, 2)); // output ?
+```
 
-   ::: details 查看示例
-   <<< @/snippets/javascript/functional-demo-2.js
-   :::
+:::
 
-3. 高阶函数
+#### 2. 函数组合{#function-combination}
 
-   - 接收一个或多个函数作为参数，返回一个新的函数
+      将多个依次调用的函数组合成一个大的函数，简化调用
 
-   ::: details 查看示例
-    ```js
-    function sum(a, b, f) {
-      return f(a) + f(b)
-    }
-    function double(a) {
-      return a * 2
-    }
+::: details 查看示例
+<<< @/snippets/javascript/functional-demo-2.js
+:::
 
-    console.log(sum(2, 3, double)) // output ?
-    ```
-   :::
+#### 3. 高阶函数{#high-function}
 
-4. 闭包
+      接收一个或多个函数作为参数，返回一个新的函数
 
-   - 函数作用域嵌套，多个作用域共享变量
+::: details 查看示例
 
-   ::: details 查看示例
-    ```js
-    function total() {
-      const multiple = 2
-      return function(num) {
-        return multiple * num
-      }
-    }
+```js
+function sum(a, b, f) {
+  return f(a) + f(b);
+}
+function double(a) {
+  return a * 2;
+}
 
-    const double = total()
-    const res = double(5)
-    console.log(res) // output ?
-    ```
-   :::
+console.log(sum(2, 3, double)); // output ?
+```
 
-5. 柯里化
+:::
 
-   - 将一个多参数函数转换成多个嵌套的单参数函数
+#### 4. 闭包{#closures}
 
-   ::: details 查看示例
-   <<< @/snippets/javascript/functional-demo-5.js
-   :::
+      函数作用域嵌套，多个作用域共享变量
 
-6. 偏函数
+::: details 查看示例
 
-   - 缓存一部分参数，剩余的参数在调用时传入
+```js
+function total() {
+  const multiple = 2;
+  return function (num) {
+    return multiple * num;
+  };
+}
 
-   ::: details 查看示例
-   <<< @/snippets/javascript/functional-demo-6.js
-   :::
+const double = total();
+const res = double(5);
+console.log(res); // output ?
+```
 
-7. 惰性函数
+:::
 
-   - 预先定义多个操作，不立即求值，在使用时再进行求值，避免不必要的求值
+#### 5. 柯里化{#curry}
 
-   ::: details 查看示例
-   <<< @/snippets/javascript/functional-demo-7.js
-   :::
+      将一个多参数函数转换成多个嵌套的单参数函数
 
-8. 递归
+::: details 查看示例
+<<< @/snippets/javascript/functional-demo-5.js
+:::
 
-   - 控制函数循环调用的一种方式
+#### 6. 偏函数{#partial-function}
 
-   ::: details 查看示例
-   [斐波那契数列 - 递归实现](./fibonacci.md#recursion)
-   :::
+      缓存一部分参数，剩余的参数在调用时传入
 
-9. 尾递归
+::: details 查看示例
+<<< @/snippets/javascript/functional-demo-6.js
+:::
 
-   - 递归优化，避免多层级函数嵌套导致的内存溢出的优化
+#### 7. 惰性函数{#inert-function}
 
-   ::: details 查看示例
-   [斐波那契数列 - 尾递归实现](./fibonacci.md#tail-recursion)
-   :::
+      预先定义多个操作，不立即求值，在使用时再进行求值，避免不必要的求值
 
-10. 链式调用
+::: details 查看示例
+<<< @/snippets/javascript/functional-demo-7.js
+:::
 
-    - 更加优雅的调用多个函数的方式
+#### 8. 递归{#recursion}
 
-    ::: details 查看示例
-    <<< @/snippets/javascript/functional-demo-10.js
-    :::
+      控制函数循环调用的一种方式
 
-11. 函数缓存
+::: details 查看示例
+[斐波那契数列 - 递归实现](./fibonacci.md#recursion)
+:::
 
-    - 记忆函数上次的执行结果，直接返回
+#### 9. 尾递归{#tail-recursion}
 
-    ::: details 查看示例
-    <<< @/snippets/javascript/functional-demo-11.js
-    :::
+      递归优化，避免多层级函数嵌套导致的内存溢出的优化
+
+::: details 查看示例
+[斐波那契数列 - 尾递归实现](./fibonacci.md#tail-recursion)
+:::
+
+#### 10. 链式调用{#call-chaining}
+
+      更加优雅的调用多个函数的方式
+
+::: details 查看示例
+<<< @/snippets/javascript/functional-demo-10.js
+:::
+
+#### 11. 函数缓存{#function-cache}
+
+      记忆函数上次的执行结果，直接返回
+
+::: details 查看示例
+<<< @/snippets/javascript/functional-demo-11.js
+:::
+
+<br />
+
+---
+
+### 其他{#other}
+
+<br />
+
+#### 1. 函数劫持{#function-hijacking}
+
+- 使用新的变量保存被劫持函数
+- 在新函数中实现改写逻辑
+- 在新函数中调用被劫持函数（变量）
+
+::: details 查看代码
+
+```js
+function log(title) {
+  console.log(`output data: ${title}`);
+}
+
+var _log = log;
+
+log = function (...args) {
+  // 调用被劫持函数
+  _log.call(null, ...args);
+  // 其他改写逻辑
+  console.log('hijacking code here.');
+};
+
+log('hello');
+```
+
+:::
