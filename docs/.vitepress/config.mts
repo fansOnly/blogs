@@ -46,6 +46,7 @@ export default defineConfig({
           items: [
             { text: '简介', link: '/articles/html/introduction' },
             { text: '重绘和重排', link: '/articles/html/repaint-and-reflow' },
+            { text: '页面渲染', link: '/articles/html/render' },
           ]
         },
         {
