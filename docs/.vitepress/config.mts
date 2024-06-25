@@ -41,6 +41,13 @@ export default defineConfig({
     sidebar: {
       '/articles/': [
         {
+          text: 'HTML',
+          collapsed: true,
+          items: [
+            { text: '简介', link: '/articles/html/introduction' },
+          ]
+        },
+        {
           text: 'Javascript',
           collapsed: true,
           items: [
