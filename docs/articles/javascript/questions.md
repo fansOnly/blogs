@@ -108,7 +108,7 @@ outline: 5
 - 实现函数柯里化/偏函数
 
 ::: details 查看答案
-[函数式编程-柯里化](../javascript/funcitonal-programming.md)
+[函数式编程-柯里化](./functional-programming.md#curry)
 :::
 
 
