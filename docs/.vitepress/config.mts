@@ -34,7 +34,7 @@ export default defineConfig({
     },
     // logo: '',
     nav: [
-      { text: '首页', link: '/' },
+      // { text: '首页', link: '/' },
       { text: '博客系列', link: '/articles/javascript/intro', activeMatch: '/articles/' },
       { text: '面试题库', link: '/interview/javascript', activeMatch: '/interview/' },
     ],
