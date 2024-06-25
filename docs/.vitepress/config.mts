@@ -54,6 +54,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'CSS 简介', link: '/articles/css/introduction' },
+            { text: '加载方式', link: '/articles/css/load-mode' },
           ]
         },
         {
