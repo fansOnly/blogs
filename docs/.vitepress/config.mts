@@ -35,7 +35,7 @@ export default defineConfig({
     // logo: '',
     nav: [
       // { text: '首页', link: '/' },
-      { text: '博客系列', link: '/articles/javascript/intro', activeMatch: '/articles/' },
+      { text: '前端基础', link: '/articles/javascript/intro', activeMatch: '/articles/' },
       { text: '面试题库', link: '/interview/javascript', activeMatch: '/interview/' },
     ],
     sidebar: {
@@ -44,16 +44,23 @@ export default defineConfig({
           text: 'HTML',
           collapsed: true,
           items: [
-            { text: '简介', link: '/articles/html/introduction' },
+            { text: 'HTML 简介', link: '/articles/html/introduction' },
             { text: '重绘和重排', link: '/articles/html/repaint-and-reflow' },
             { text: '页面渲染', link: '/articles/html/render' },
+          ]
+        },
+        {
+          text: 'CSS',
+          collapsed: true,
+          items: [
+            { text: 'CSS 简介', link: '/articles/css/introduction' },
           ]
         },
         {
           text: 'Javascript',
           collapsed: true,
           items: [
-            { text: '简介', link: '/articles/javascript/intro' },
+            { text: 'JS 简介', link: '/articles/javascript/intro' },
             { text: '数据类型', link: '/articles/javascript/data-types' },
             { text: '作用域', link: '/articles/javascript/scope' },
             { text: '闭包', link: '/articles/javascript/closures' },
