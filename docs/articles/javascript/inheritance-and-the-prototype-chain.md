@@ -11,6 +11,10 @@ outline: [3, 4]
 
 访问一个对象的属性时，它不仅仅在该对象上搜寻，还会沿着对象的原型，原型的原型一直往上搜寻，直至匹配到这个属性或者是到达原型链的末尾。
 
+::: details 
+![alt text](../../public/images/javascript/prototype-chain.jpg)
+:::
+
 <br />
 
 ---
