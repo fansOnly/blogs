@@ -45,6 +45,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '简介', link: '/articles/html/introduction' },
+            { text: '重绘和重排', link: '/articles/html/repaint-and-reflow' },
           ]
         },
         {
