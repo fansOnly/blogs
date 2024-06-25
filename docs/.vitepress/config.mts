@@ -38,30 +38,34 @@ export default defineConfig({
       { text: '博客系列', link: '/articles/javascript/intro', activeMatch: '/articles/' },
       { text: '面试题库', link: '/interview/javascript', activeMatch: '/interview/' },
     ],
-    sidebar: [
-      {
-        text: 'Javascript',
-        collapsed: true,
-        items: [
-          { text: '简介', link: '/articles/javascript/intro' },
-          { text: '数据类型', link: '/articles/javascript/data-types' },
-          { text: '作用域', link: '/articles/javascript/scope' },
-          { text: '闭包', link: '/articles/javascript/closures' },
-          { text: '继承与原型链', link: '/articles/javascript/inheritance-and-the-prototype-chain' },
-          { text: '事件', link: '/articles/javascript/event' },
-          { text: '函数式编程', link: '/articles/javascript/functional-programming' },
-          { text: '斐波那契专题', link: '/articles/javascript/fibonacci' },
-          { text: '题目汇总', link: '/articles/javascript/questions' },
-        ]
-      },
-      {
-        text: '面试题库',
-        collapsed: true,
-        items: [
-          { text: 'javascript 系列', link: '/interview/javascript' },
-        ]
-      },
-    ],
+    sidebar: {
+      '/articles/': [
+        {
+          text: 'Javascript',
+          collapsed: true,
+          items: [
+            { text: '简介', link: '/articles/javascript/intro' },
+            { text: '数据类型', link: '/articles/javascript/data-types' },
+            { text: '作用域', link: '/articles/javascript/scope' },
+            { text: '闭包', link: '/articles/javascript/closures' },
+            { text: '继承与原型链', link: '/articles/javascript/inheritance-and-the-prototype-chain' },
+            { text: '事件', link: '/articles/javascript/event' },
+            { text: '函数式编程', link: '/articles/javascript/functional-programming' },
+            { text: '斐波那契专题', link: '/articles/javascript/fibonacci' },
+            { text: '题目汇总', link: '/articles/javascript/questions' },
+          ]
+        },
+      ],
+      '/interview/': [
+        {
+          text: '面试题库',
+          // collapsed: true,
+          items: [
+            { text: 'javascript 系列', link: '/interview/javascript' },
+          ]
+        },
+      ]
+    },
     footer: {
       message: 'Released under the <a href="https://github.com/fansOnly/blogs/blob/main/LICENSE">MIT License</a>.',
       copyright: 'Copyright © 2024-present <a href="https://github.com/fansOnly">FansOnly</a>'
