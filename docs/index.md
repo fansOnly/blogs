@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "My Front World"
-  text: "A Little Surprise"
+  name: "Hi There!"
+  # text: "A Little Surprise"
   # tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  # actions:
+  #   - theme: brand
+  #     text: Markdown Examples
+  #     link: /markdown-examples
+  #   - theme: alt
+  #     text: API Examples
+  #     link: /api-examples
 
 features:
   - title: Motto A
