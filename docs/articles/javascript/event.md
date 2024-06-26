@@ -54,6 +54,8 @@ outline: [3, 4]
 
 ##### 代码示例 ②{#example-2}
 
-::: details 如何实现一个 <code>event</code> 类
+实现一个 <code>event</code> 类，支持订阅事件、发布事件、取消订阅事件、订阅一次性事件？
+
+::: details 查看答案
 <<< @/snippets/javascript/event-demo-2.js
 :::
