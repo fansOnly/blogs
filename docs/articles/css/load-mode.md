@@ -32,4 +32,6 @@ p {
 @import 'xx.css';
 ```
 
-在 IE 下通过 @import 引入 CSS 文件，可能会引起无样式内容闪烁（Flash of UnStyled Content）。
+::: warning
+在 IE 下通过 <code>@import</code> 的方式引入 CSS 文件，可能会引起无样式内容闪烁（Flash of UnStyled Content）。
+:::
