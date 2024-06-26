@@ -17,7 +17,7 @@
 
 <br />
 
-#### 1. CSS 标准盒模型
+#### 1. CSS 标准盒模型{#content-box}
 
 标准盒模型通过设置 CSS 属性 <code>box-sizing: content-box</code> 实现。计算盒子的内容容器宽度/高度时，只计算 <code>width/height</code> 的值。
 
@@ -35,7 +35,7 @@
 
 ![box-model-content-box](/images/css/box-model-content-box.png)
 
-#### 2. CSS 怪异盒模型
+#### 2. CSS 怪异盒模型{#border-box}
 
 标准盒模型通过设置 CSS 属性 <code>box-sizing: border-box</code> 实现。计算盒子的内容容器宽度/高度时，由 <code>width/height</code> 减去相应方向的 <code>padding</code> 值，减去相应方向的 <code>border-width</code> 值得出。
 
