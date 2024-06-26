@@ -29,13 +29,13 @@ export default defineConfig({
       provider: 'local'
     },
     outline: {
-      level: 3,
+      level: [3, 4],
       label: '页面导航',
     },
     // logo: '',
     nav: [
       // { text: '首页', link: '/' },
-      { text: '前端基础', link: '/articles/javascript/intro', activeMatch: '/articles/' },
+      { text: '前端基础', link: '/articles/html/introduction', activeMatch: '/articles/' },
       { text: '面试题库', link: '/interview/javascript', activeMatch: '/interview/' },
     ],
     sidebar: {
