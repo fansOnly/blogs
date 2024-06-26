@@ -58,6 +58,7 @@ export default defineConfig({
             { text: 'CSS 选择器', link: '/articles/css/css-selectors' },
             { text: 'CSS 盒模型', link: '/articles/css/box-model' },
             { text: '块级格式上下文', link: '/articles/css/bfc' },
+            { text: 'Flex 弹性布局', link: '/articles/css/flex' },
           ]
         },
         {
