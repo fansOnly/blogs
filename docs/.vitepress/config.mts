@@ -60,6 +60,7 @@ export default defineConfig({
             { text: '块级格式上下文', link: '/articles/css/bfc' },
             { text: 'Flex 弹性布局', link: '/articles/css/flex' },
             { text: '响应式设计', link: '/articles/css/responsive-design' },
+            { text: 'CSS 性能优化', link: '/articles/css/optimization' },
             { text: '相关面试题', link: '/articles/css/questions' },
           ]
         },
