@@ -2,7 +2,6 @@
 outline: [3, 4]
 ---
 
-
 # 原型链{#title}
 
 ---
@@ -11,7 +10,7 @@ outline: [3, 4]
 
 访问一个对象的属性时，它不仅仅在该对象上搜寻，还会沿着对象的原型，原型的原型一直往上搜寻，直至匹配到这个属性或者是到达原型链的末尾。
 
-::: details 
+::: details
 ![alt text](../../public/images/javascript/prototype-chain.jpg)
 :::
 
@@ -99,8 +98,8 @@ outline: [3, 4]
 
 #### 7. class 继承{#inheritance-7}
 
-- 先将父类实例对象的属性和方法添加到 this 上(调用 super() 方法)
-- 用子类的构造函数修改 this
+- 先将父类实例对象的属性和方法添加到 <code>this</code> 上(调用 <code>super()</code> 方法)
+- 用子类的构造函数修改 <code>this</code>
 
 ::: details 代码实现
 <<< @/snippets/javascript/inheritance-demo-7.js
@@ -110,34 +109,35 @@ outline: [3, 4]
 
 ###### 代码示例 ①{#example-1}
 
-+ 下述代码分别打印什么内容
+- 下述代码分别打印什么内容
+
 ```js
 function Foo() {
   getName = function () {
-    return 1
-  }
-  return this
+    return 1;
+  };
+  return this;
 }
 Foo.getName = function () {
-  return 2
-}
+  return 2;
+};
 Foo.prototype.getName = function () {
-  return 3
-}
+  return 3;
+};
 var getName = function () {
-  return 4
-}
+  return 4;
+};
 function getName() {
-  return 5
+  return 5;
 }
 
-console.log(Foo.getName())
-console.log(getName())
-console.log(Foo().getName())
-console.log(getName())
-console.log(new Foo.getName())
-console.log(new Foo().getName())
-console.log(new new Foo().getName())
+console.log(Foo.getName());
+console.log(getName());
+console.log(Foo().getName());
+console.log(getName());
+console.log(new Foo.getName());
+console.log(new Foo().getName());
+console.log(new new Foo().getName());
 ```
 
 ::: details

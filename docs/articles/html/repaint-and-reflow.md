@@ -8,10 +8,10 @@
 
 触发重绘的常见操作：
 
-- Visibility
-- background color
-- outline
-- border-style
+- <code>visibility</code>
+- <code>background</code>、<code>color</code>
+- <code>outline</code>
+- <code>border-style</code>
 
 <br />
 
@@ -31,7 +31,7 @@
 - 改变字体大小
 - 改变窗口尺寸
 - 添加伪类
-- 设置 style
+- 设置 style 属性的值
 - 获取某些属性、调用某些计算方法
 
 <br />
@@ -40,7 +40,7 @@
 
 ### 如何减少重绘和重排{#tip}
 
-- 离线操作 DOM，使用 Fragment 操作 DOM 等
+- 离线操作 <code>DOM</code>，使用 <code>Fragment</code> 操作 <code>DOM</code> 等
 
   ```js
   // eg.
@@ -48,7 +48,7 @@
   el.appendChild(li);
   ```
 
-- 通过 className 改变样式
+- 通过 <code>className</code> 改变样式
 
   ```js
   // BAD ❌
@@ -64,4 +64,4 @@
   el.style.position = 'absolute';
   ```
 - 读取缓存值
-- GPU 加速：使用 transform / opacity / filter 等属性
+- GPU 加速：使用 <code>transform</code> / <code>opacity</code> / <code>filter</code> 等属性

@@ -35,7 +35,7 @@ export default defineConfig({
     // logo: '',
     nav: [
       // { text: '首页', link: '/' },
-      { text: '前端基础', link: '/articles/html/introduction', activeMatch: '/articles/' },
+      { text: '前端基础', link: '/articles/javascript/introduction', activeMatch: '/articles/' },
       { text: '面试题库', link: '/interview/javascript', activeMatch: '/interview/' },
     ],
     sidebar: {
@@ -68,7 +68,7 @@ export default defineConfig({
           text: 'Javascript',
           collapsed: true,
           items: [
-            { text: 'JS 简介', link: '/articles/javascript/intro' },
+            { text: 'JS 简介', link: '/articles/javascript/introduction' },
             { text: '数据类型', link: '/articles/javascript/data-types' },
             { text: '作用域', link: '/articles/javascript/scope' },
             { text: '闭包', link: '/articles/javascript/closures' },
