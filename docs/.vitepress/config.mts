@@ -34,6 +34,7 @@ export default defineConfig({
     nav: [
       // { text: '首页', link: '/' },
       { text: '前端基础', link: '/articles/javascript/introduction', activeMatch: '/articles/' },
+      { text: 'ES6 专题', link: '/es6/introduction', activeMatch: '/es6/' },
       { text: '面试题库', link: '/interview/javascript', activeMatch: '/interview/' },
     ],
     sidebar: {
@@ -76,6 +77,13 @@ export default defineConfig({
             { text: 'CSS 性能优化', link: '/articles/css/optimization' },
             { text: '相关面试题', link: '/articles/css/questions' },
           ],
+        },
+      ],
+      '/es6/': [
+        {
+          text: 'ES6 专题系列',
+          // collapsed: true,
+          items: [{ text: 'ECMA 简介', link: '/es6/introduction' }],
         },
       ],
       '/interview/': [
