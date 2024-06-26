@@ -13,25 +13,25 @@ JavaScript（JS）是一种具有[函数优先](https://developer.mozilla.org/zh
 
 # 参考{#reference}
 
-::: info [标准对象:arrow_upper_right:](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)
+::: info [标准对象](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)
 例如 Array、Boolean、Date、Error、Function、JSON、Math、Number、Object、RegExp、String、Map、Set、WeakMap 、WeakSet 等标准内置对象。
 :::
 
-::: tip [表达式和运算符:arrow_upper_right:](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators)
+::: tip [表达式和运算符](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators)
 运算符的作用instanceof、typeof、new、this，运算符优先级，以及其他运算符。
 :::
 
-::: warning [语句和声明:arrow_upper_right:](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements)
+::: warning [语句和声明](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements)
 了解 do-while、for-in、for-of、try-catch、let、var、const、if-else、switch 以及其他语句和关键字的作用。
 :::
 
-::: info [函数:arrow_upper_right:](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions)
+::: info [函数](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions)
 在 JavaScript 中，函数是头等 (first-class)对象，因为它们可以像任何其他对象一样具有属性和方法。
 :::
 
-::: tip [类:arrow_upper_right:](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes)
+::: tip [类](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes)
 JavaScript 类是进行面向对象编程最合适的方式。
 :::
 
-::: warning [正则表达式:arrow_upper_right:](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Regular_expressions)
+::: warning [正则表达式](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Regular_expressions)
 :::
