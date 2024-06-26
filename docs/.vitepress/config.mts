@@ -55,6 +55,7 @@ export default defineConfig({
           items: [
             { text: 'CSS 简介', link: '/articles/css/introduction' },
             { text: '加载方式', link: '/articles/css/load-mode' },
+            { text: 'CSS 盒模型', link: '/articles/css/box-model' },
           ]
         },
         {
