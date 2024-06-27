@@ -82,14 +82,16 @@ export default defineConfig({
       '/es6/': [
         {
           text: 'ES6 专题系列',
-          // collapsed: true,
-          items: [{ text: 'ECMA 简介', link: '/es6/introduction' }],
+          collapsed: true,
+          items: [
+            { text: 'ECMA 简介', link: '/es6/introduction' },
+            { text: 'ECMAScript 2015', link: '/es6/es6' },
+          ],
         },
       ],
       '/interview/': [
         {
           text: '面试题库',
-          // collapsed: true,
           items: [{ text: 'javascript 系列', link: '/interview/javascript' }],
         },
       ],
