@@ -36,6 +36,7 @@ export default defineConfig({
       { text: '前端基础', link: '/articles/javascript/introduction', activeMatch: '/articles/' },
       { text: 'ES6 专题', link: '/es6/introduction', activeMatch: '/es6/' },
       { text: '面试题库', link: '/interview/javascript', activeMatch: '/interview/' },
+      // { text: '线上资源', link: '/online/files', activeMatch: '/online/' },
     ],
     sidebar: {
       '/articles/': [
@@ -93,6 +94,14 @@ export default defineConfig({
         {
           text: '面试题库',
           items: [{ text: 'javascript 系列', link: '/interview/javascript' }],
+        },
+      ],
+      '/online/': [
+        {
+          text: '线上资源',
+          items: [
+            { text: '测试资源', link: '/online/files' },
+          ],
         },
       ],
     },
