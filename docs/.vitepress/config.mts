@@ -9,7 +9,7 @@ export default defineConfig({
   // lang: 'zh-CN',
   cleanUrls: true,
   lastUpdated: true,
-  ignoreDeadLinks: true,
+  // ignoreDeadLinks: true, // 死链检测
   markdown: {
     container: {
       tipLabel: '提示',

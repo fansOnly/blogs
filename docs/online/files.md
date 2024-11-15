@@ -1,50 +1,44 @@
 ### 线上测试资源
 
+> 
+
+::: tip 资源访问
+- 存放于 <code>public</code> 路径下的资源，均可通过线上地址 <code>https://fansonly.github.io/blogs/xxx.xx</code> 访问。
+- 如果存在二级目录，则需要在后面加上相应的路径。Eg. <code>public/assets/test.jpg</code> 可通过 <code>https://fansonly.github.io/blogs/assets/test.jpg</code> 访问。
+:::
+
 ::: details JPG 文件
-![jpg](/assets/test.jpg)
+<a href="/blogs/assets/test.jpg" target="_blank">查看链接</a>
 :::
 
 ::: details GIF 文件
-![gif](/assets/test.gif)
+<a href="/blogs/assets/test.gif" target="_blank">查看链接</a>
 :::
 
 ::: details MP4 文件
-<a href="/blogs/assets/test.mp4" download>下载 MP4</a>
-<video :src="mp4" controls></video>
+<a href="/blogs/assets/test.mp4" target="_blank">查看链接</a>
 :::
 
 ::: details WAV 文件
-<a href="/blogs/assets/test.wav" download>下载 WAV</a>
-<audio :src="wav" controls></audio>
+<a href="/blogs/assets/test.wav" target="_blank">查看链接</a>
 :::
 
 ::: details MARKDOWN 文件
-<div><a href="/blogs/assets/test.md" download>下载 MARKDOWN</a></div>
-
-[markdown](/assets/test.md)
+<div><a href="/blogs/assets/test.md" target="_blank">查看链接</a></div>
 :::
 
 ::: details TXT 文件
-<a href="/blogs/assets/test.txt" download>下载 TXT</a>
+<a href="/blogs/assets/test.txt" target="_blank">查看链接</a>
 :::
 
 ::: details PDF 文件
-<a href="/blogs/assets/test.pdf" download>下载 PDF</a>
+<a href="/blogs/assets/test.pdf" target="_blank">查看链接</a>
 :::
 
 ::: details DOCX 文件
-<a href="/blogs/assets/test.docx" download>下载 DOCX</a>
+<a href="/blogs/assets/test.docx" target="_blank">右键-复制链接地址</a>
 :::
 
 ::: details XLSX 文件
-<a href="/blogs/assets/test.xlsx" download>下载 XLSX</a>
+<a href="/blogs/assets/test.xlsx" target="_blank">右键-复制链接地址</a>
 :::
-
-<script setup>
-  import wav from '../public/assets/test.wav'
-  import mp4 from '../public/assets/test.mp4'
-  // import pdf from '../public/assets/test.pdf'
-  // import docx from '../public/assets/test.docx'
-  // import xlsx from '../public/assets/test.xlsx'
-  // import txt from '../public/assets/test.txt'
-</script>
