@@ -8,7 +8,7 @@
 :::
 
 ::: details WAV 文件
-![png](../public/assets/test.wav)
+![wav](../public/assets/test.wav)
 :::
 
 ::: details MD 文件
