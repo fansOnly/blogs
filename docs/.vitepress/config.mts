@@ -9,6 +9,7 @@ export default defineConfig({
   // lang: 'zh-CN',
   cleanUrls: true,
   lastUpdated: true,
+  ignoreDeadLinks: true,
   markdown: {
     container: {
       tipLabel: '提示',
@@ -120,6 +121,6 @@ export default defineConfig({
     },
     darkModeSwitchTitle: '切换到深色模式',
     lightModeSwitchTitle: '切换到浅色模式',
-    externalLinkIcon: true
+    externalLinkIcon: true,
   },
 });
